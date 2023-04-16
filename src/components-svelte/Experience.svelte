@@ -12,7 +12,7 @@
 
     export let experience;
 
-    experience.jobs.sort((a, b) => a.startDate > b.startDate);
+    experience.jobs = experience.jobs.sort((a, b) => -a.startDate.localeCompare(b.startDate));
     
 </script>
 <section id="experience" class={`${$theme}-bg pb-5`}>
@@ -27,7 +27,7 @@
         {#each experience.jobs as job}
             <TimelineItem>
                 <TimelineOppositeContent slot="opposite-content">
-                    <p style={'margin-top: -1px;'} class="{`${$theme}-text`}">{job.startDate} - {job.endDate ?? "present"}</p>
+                    <p style={'margin-top: -1px;'} class="{`${$theme}-text`}">{job.startDatePretty} - {job.endDatePretty ?? "present"}</p>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot style={`${$theme}-bg}`}/>

@@ -259,10 +259,6 @@ header h1 {
 	}
 }
 
-.modal-inside .modal-content {
-	background: white;
-}
-
 .bars {
 	width: 95%;
 	float: left;
@@ -308,7 +304,6 @@ header h1 {
 
 .modal-close {
 	text-align: right;
-	padding: 10px 15px 10px 15px;
 	cursor: pointer;
 }
 

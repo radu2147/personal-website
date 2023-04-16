@@ -9,13 +9,13 @@
             </h1>
         </div>
     </div>
-    <form method="POST">
+    <form action="https://formspree.io/xjvpbkjo" method="POST">
         <input type="text" name="name" placeholder="Your name" required>
-        <input type="text" name="_replyto" placeholder="Your email" required>
+        <input type="email" name="_replyto" placeholder="Your email" required>
         <input type="text" name="subject" placeholder="Subject">
         <textarea name="message" placeholder="Your message" rows="6"></textarea>
 
-        <button class={`${$theme}-bg`} type="submit">Send</button>
+        <button class={`${$theme}-bg`} type="submit"><h3 class={`${$theme}-text`}>Send</h3></button>
     </form>
 
 </section>
@@ -37,11 +37,9 @@
     }
     button {
         width: 100px;
-        padding: 10px;
+        padding: 10px 25px;
         align-self: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        border: 1px solid #cccccc;
-        color: white;
+        border: 0px;
         border-radius: 5px;
         font-weight: bold;
     }
@@ -49,6 +47,6 @@
         opacity: 90%;
     }
     button:hover{
-        background-color: #4cae4c;
+        opacity: 90%;
     }
 </style>
