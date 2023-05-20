@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "start": "sirv public"
+    "start": "sirv public",
+    "format": "prettier --write --plugin-search-dir=. **.js **/**/*.svelte **/*.js && eslint . --ext .js,.svelte --fix"
   },
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.12",
@@ -13,7 +14,10 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "axios": "^1.3.5",
-    "prettier": "^2.8.4",
+    "eslint": "^8.39.0",
+    "eslint-plugin-svelte": "^2.27.3",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "2.8.8",
     "prettier-plugin-svelte": "^2.9.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
@@ -26,6 +30,7 @@
   "dependencies": {
     "rollup-plugin-import-css": "^3.1.0",
     "sirv-cli": "^2.0.0",
+    "svelte-i18n": "^3.6.0",
     "svelte-notifications": "^0.9.98",
     "svelte-switch": "^0.0.5",
     "svelte-typewriter": "^3.1.4",

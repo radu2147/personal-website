@@ -178,32 +178,142 @@
             "list": [
               {
                 "title": "FoodVision",
-                "description": "Soemthing something",
+                "description": "I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
                 "year": 2022,
-                "images":[
-                  "images/projects/foodvision/login.jpg"
+                "image":{
+                  "url": "images/projects/foodvision/login.jpg",
+                  "orientation": "portrait"
+                },
+                "tech":[
+                  {
+                    "name": "Python"
+                  },
+                  {
+                    "name": "Flutter"
+                  },
+                  {
+                    "name": "Dart"
+                  },
+                  {
+                    "name": "FastAPI",
+                    "class": "skill-icons:fastapi"
+                  }
                 ]
               },
               {
                 "title": "Cheap bastard",
-                "description": "Soemthing something",
+                "description": "I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
                 "year": 2021,
-                "images":[
-                  "images/projects/cheap-bastard/homepage.png"
+                "image":{
+                  "url": "images/projects/cheap-bastard/homepage.png",
+                  "orientation": "landscape"
+                },
+                "tech":[
+                  {
+                    "name": "Angular"
+                  },
+                  {
+                    "name": "Kotlin",
+                    "class": "logos:kotlin-icon"
+                  },
+                  {
+                    "name": "HTML",
+                    "class": "logos:html-5"
+                  },
+                  {
+                    "name": "CSS",
+                    "class": "logos:css-3"
+                  },
+                  {
+                    "name": "Spring",
+                    "class": "logos:spring-icon"
+                  }
                 ]
               }
             ]
           },
           "skills": {
-            "title": "Skills",
+            "title": "Competente",
             "tech":[
               {
-                "name": "Python",
-                "class": "python"
+                "name": "Python"
+              },
+              {
+                "name": "React"
+              },
+              {
+                "name": "Java"
+              },
+              {
+                "name": "Javascript"
+              },
+              {
+                "name": "GraphQL"
+              },
+              {
+                "name": "Kotlin",
+                "class": "logos:kotlin-icon"
+              },
+              {
+                "name": "Hack"
+              },
+              {
+                "name": "Spring",
+                "class": "logos:spring-icon"
+              },
+              {
+                "name": "Django",
+                "class": "logos:django-icon"
+              },
+              {
+                "name": "HTML",
+                "class": "logos:html-5"
+              },
+              {
+                "name": "CSS",
+                "class": "logos:css-3"
+              },
+              {
+                "name": "Svelte",
+                "class": "logos:svelte-icon"
+              },
+              {
+                "name": "FastAPI",
+                "class": "skill-icons:fastapi"
+              },
+              {
+                "name": "PostgreSQL"
               }
             ]
           },
-          "experience": "Experience"
+          "experience": {
+            "title": "Experienta",
+            "jobs":[
+              {
+                "company": "Cloudflight",
+                "title": "Software engineer intern",
+                "description":"I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+                "startDate": "201-07",
+                "startDatePretty": "July 2021",
+                "endDatePretty": "September 2021"
+              },
+              {
+                "company": "Meta",
+                "title": "Frontend engineer intern",
+                "description":"I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+                "startDate": "2022-07",
+                "startDatePretty": "July 2022",
+                "endDatePretty": "October 2022"
+              },
+              {
+                "company": "Sector labs",
+                "title": "Junior full stack engineer",
+                "description":"I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+                "startDate": "2022-12",
+                "startDatePretty": "December 2022"
+              }
+            ]
+          }
         }
       }
     }
