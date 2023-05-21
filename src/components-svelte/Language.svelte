@@ -1,9 +1,11 @@
 <script>
   import Icon from '@iconify/svelte';
-  import { theme, language } from '../store';
+  import { theme } from '../store';
+  import { locale } from 'svelte-i18n';
 
   function changeLanguages(lang_code) {
-    $language = lang_code;
+    locale.set(lang_code);
+    console.log($locale);
   }
 </script>
 
@@ -17,7 +19,7 @@
       class="iconify language-icon mr-5"
       icon="twemoji-flag-for-flag-united-kingdom"
       id="en"
-      style={`filter: brightness(${$language == 'en' ? '40%' : '100%'})`} />
+      style={`filter: brightness(${$locale == 'en' ? '40%' : '100%'})`} />
   </span>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <span
@@ -28,7 +30,7 @@
       class="iconify language-icon ml-5"
       icon="twemoji-flag-for-flag-romania"
       id="ro"
-      style={`filter: brightness(${$language == 'ro' ? '40%' : '100%'})`} />
+      style={`filter: brightness(${$locale == 'ro' ? '40%' : '100%'})`} />
   </span>
 </div>
 

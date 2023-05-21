@@ -8,6 +8,7 @@
   import Contact from "./components-svelte/Contact.svelte";
   import Footer from "./components-svelte/Footer.svelte";
   import { language } from "./store";
+  import { _ } from "svelte-i18n";
 
   async function getInfo() {
     let response = await fetch("./data.json");
@@ -39,7 +40,7 @@
     <Footer />
   {:catch error}
     <!-- promise was rejected -->
-    <p>Something went wrong: {error.message}</p>
+    <p>{$_('error')}: {error.message}</p>
   {/await}
 </div>
 

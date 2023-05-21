@@ -6,6 +6,9 @@ const config = {
       postcss: true,
     }),
   ],
+  parserOptions: {
+    allowImportExportEverywhere: true
+  }
 };
 
 module.exports = config;

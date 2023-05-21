@@ -289,6 +289,10 @@ header h1 {
 	top: -36px;
 }
 
+div.modal-content{
+	border: 0px;
+}
+
 .bar-expand {
 	position: absolute;
 	left: 0;
