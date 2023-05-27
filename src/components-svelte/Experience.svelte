@@ -9,7 +9,7 @@
     TimelineOppositeContent
   } from 'svelte-vertical-timeline';
   import { theme } from '../store';
-  import { _ } from 'svelte-i18n';
+  import { _, locale } from 'svelte-i18n';
 
   export let experience;
 
@@ -29,7 +29,9 @@
       <TimelineItem>
         <TimelineOppositeContent slot="opposite-content">
           <p style={'margin-top: -1px;'} class={`${$theme}-text`}>
-            {job.startDatePretty} - {job.endDatePretty ?? $_('section.experience.present')}
+            {job.startDatePretty[$locale]} - {job.endDatePretty
+              ? job.endDatePretty[$locale]
+              : $_('section.experience.present')}
           </p>
         </TimelineOppositeContent>
         <TimelineSeparator>

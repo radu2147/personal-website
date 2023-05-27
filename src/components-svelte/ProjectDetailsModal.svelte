@@ -2,6 +2,7 @@
   import { Modal } from 'sveltestrap';
   import Skill from './Skill.svelte';
   import { theme } from '../store';
+  import { locale } from 'svelte-i18n';
   export let data;
   export let show;
   export let closeModal;
@@ -23,7 +24,7 @@
       </a>
     </h3>
     <p class={`modal-description pt-5 pb-5 ${$theme}-text`}>
-      {data.description}
+      {data.description[$locale]}
     </p>
     <div class="col-md-12 text-center pt-5 pb-5">
       <ul class="list-inline mx-auto">

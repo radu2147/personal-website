@@ -2,7 +2,7 @@
   import Icon from '@iconify/svelte';
   import { theme } from '../store';
   import { _ } from 'svelte-i18n';
-  export let data;
+  export let profile_pic;
 </script>
 
 <section id="about" class={`${$theme}-secondary-bg p-5`}>
@@ -14,7 +14,7 @@
       <div class="col-md-4 mb-5 center">
         <div class="polaroid">
           <span class={`${$theme}-third-bg`} style="cursor: auto">
-            <img height="250px" src={data.profile_pic} alt="Avatar placeholder" />
+            <img height="250px" src={profile_pic} alt="Avatar placeholder" />
             <Icon icon="logos:react" style={`font-size: 400%; margin: 9% 5% 0 5%`} />
             <Icon icon="logos:python" style={`font-size: 400%; margin: 9% 5% 0 5%`} />
             <Icon icon="logos:java" style={`font-size: 400%; margin: 9% 5% 0 5%`} />

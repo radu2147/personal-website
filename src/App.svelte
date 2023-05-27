@@ -7,7 +7,6 @@
   import Experience from "./components-svelte/Experience.svelte";
   import Contact from "./components-svelte/Contact.svelte";
   import Footer from "./components-svelte/Footer.svelte";
-  import { language } from "./store";
   import { _ } from "svelte-i18n";
 
   async function getInfo() {
@@ -26,14 +25,11 @@
     <!-- promise was fulfilled -->
     <Header name="Radu-Andrei Baston" title="SOFTWARE ENGINEER" />
     <Language />
-    <About
-      data={value[$language].basic_info.section_name.about}
-      description={value[$language].basic_info.description}
-    />
-    <Projects projects={value[$language].basic_info.section_name.projects} />
-    <Skills skills={value[$language].basic_info.section_name.skills} />
+    <About profile_pic="images/me.jpg"/>
+    <Projects projects={value.projects} />
+    <Skills skills={value.skills} />
     <Experience
-      experience={value[$language].basic_info.section_name.experience}
+      experience={value.experience}
     />
     <Contact />
     <Footer />

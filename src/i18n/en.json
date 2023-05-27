@@ -3,7 +3,7 @@
         "about":{
             "title": "About me",
             "hello": "Hi :)",
-            "description": "Hello, everybody. I'm Radu, a junior programmer based in Cluj, who is always curious to explore new thing and gain a better understanding of tech world with each unfinished project and 'Hello, World!!' printed :). If you are curious about me or have a startup idea make sure to leave a message down in the contact section, or check <a href='./Resume.pdf'> my resume</a>. Whatever!"
+            "description": "Hello, everybody. I'm Radu, a junior software engineer based in Cluj, who is always curious to explore new thing and gain a better understanding of tech world with each unfinished project and 'Hello, World!!' printed :). If you are curious about me or have a startup idea make sure to leave a message down in the contact section, or check <a href='./Resume.pdf'> my resume</a>. Whatever!"
         },
         "projects":{
             "title": "Projects"

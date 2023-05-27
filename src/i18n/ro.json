@@ -3,7 +3,7 @@
         "about":{
             "title": "Despre mine",
             "hello": "Buna :)",
-            "description": "Hei, toata lumea. Ma numesc Radu, programat junior situat in Cluj. Sunt mereu curios sa explorez lucruri noi si sa capat o mai buna intelegere despre lumea tehnologiei cu fiecare proiect inceput si neterminat sau 'Hello, world!' printat pe ecran :). Daca esti curios de mine sau ai vreo idee de startup, nu ezita sa imi lasi un mesaj in sectiunea de contact sau sa-mi verifici <a href='./Resume.pdf'> CV-ul</a>."
+            "description": "Hei, toata lumea. Ma numesc Radu, programator junior situat in Cluj. Sunt mereu curios sa explorez lucruri noi si sa capat o mai buna intelegere despre lumea tehnologiei cu fiecare proiect inceput si neterminat sau 'Hello, world!' printat pe ecran :). Daca esti curios de mine sau ai vreo idee de startup, nu ezita sa imi lasi un mesaj in sectiunea de contact sau sa-mi verifici <a href='./Resume.pdf'> CV-ul</a>."
         },
         "projects":{
             "title": "Proiecte"
