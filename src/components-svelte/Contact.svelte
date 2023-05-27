@@ -1,5 +1,6 @@
 <script>
   import { theme } from '../store';
+  import { _ } from 'svelte-i18n';
 </script>
 
 <section id="contact" class={`${$theme}-secondary-bg pb-5`}>
@@ -9,12 +10,13 @@
     </div>
   </div>
   <form action="https://formspree.io/xjvpbkjo" method="POST">
-    <input type="text" name="name" placeholder="Your name" required />
-    <input type="email" name="_replyto" placeholder="Your email" required />
-    <input type="text" name="subject" placeholder="Subject" />
-    <textarea name="message" placeholder="Your message" rows="6" />
+    <input type="text" name="name" placeholder={$_('section.contact.name')} required />
+    <input type="email" name="_replyto" placeholder={$_('section.contact.email')} required />
+    <input type="text" name="subject" placeholder={$_('section.contact.subject')} />
+    <textarea name="message" placeholder={$_('section.contact.message')} rows="6" />
 
-    <button class={`${$theme}-bg`} type="submit"><h3 class={`${$theme}-text`}>Send</h3></button>
+    <button class={`${$theme}-bg`} type="submit"
+      ><h3 class={`${$theme}-text`}>{$_('section.contact.send')}</h3></button>
   </form>
 </section>
 

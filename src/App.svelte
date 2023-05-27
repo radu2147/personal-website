@@ -27,7 +27,6 @@
     <Header name="Radu-Andrei Baston" title="SOFTWARE ENGINEER" />
     <Language />
     <About
-      hello={value[$language].basic_info.description_header}
       data={value[$language].basic_info.section_name.about}
       description={value[$language].basic_info.description}
     />

@@ -5,7 +5,6 @@
 
   function changeLanguages(lang_code) {
     locale.set(lang_code);
-    console.log($locale);
   }
 </script>
 

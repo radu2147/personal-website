@@ -1,15 +1,14 @@
 <script>
   import Icon from '@iconify/svelte';
   import { theme } from '../store';
+  import { _ } from 'svelte-i18n';
   export let data;
-  export let description;
-  export let hello;
 </script>
 
 <section id="about" class={`${$theme}-secondary-bg p-5`}>
   <div class="col-md-12">
     <h1 class={`${$theme}-text`}>
-      <span>{data.title}</span>
+      <span>{$_('section.about.title')}</span>
     </h1>
     <div class="row center mx-auto">
       <div class="col-md-4 mb-5 center">
@@ -37,10 +36,10 @@
               class={`card-body font-trebuchet text-justify ml-3 mr-3 ${$theme}-third-bg`}
               style={'height: auto;  font-size: 132%; line-height: 200%'}>
               <br />
-              <span class={`${$theme}-text wave`}>{hello} :) </span>
+              <span class={`${$theme}-text wave`}>{$_('section.about.hello')} </span>
               <br />
               <br />
-              <span class={`${$theme}-text`}> {description} </span>
+              <span class={`${$theme}-text`}> {@html $_('section.about.description')} </span>
             </div>
           </div>
         </div>

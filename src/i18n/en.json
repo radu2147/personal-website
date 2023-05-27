@@ -1,3 +1,26 @@
 {
-    "error": "Something went wrong."
+    "section":{
+        "about":{
+            "title": "About me",
+            "hello": "Hi :)",
+            "description": "Hello, everybody. I'm Radu, a junior programmer based in Cluj, who is always curious to explore new thing and gain a better understanding of tech world with each unfinished project and 'Hello, World!!' printed :). If you are curious about me or have a startup idea make sure to leave a message down in the contact section, or check <a href='./Resume.pdf'> my resume</a>. Whatever!"
+        },
+        "projects":{
+            "title": "Projects"
+        },
+        "skills":{
+            "title": "Skills"
+        },
+        "experience":{
+            "title": "Experience",
+            "present": "present"
+        },
+        "contact":{
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Your message",
+            "send": "Send"
+        }
+    }
 }
