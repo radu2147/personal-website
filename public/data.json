@@ -122,8 +122,8 @@
         "title": "Software engineer intern",
         "description":"I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
         "startDate": "201-07",
-        "startDatePretty": {"en": "July 2021", "ro": "Iulie 2022"},
-        "endDatePretty": {"en": "September 2021", "ro": "Septembrie 2022"}
+        "startDatePretty": {"en": "July 2021", "ro": "Iulie 2021"},
+        "endDatePretty": {"en": "September 2021", "ro": "Septembrie 2021"}
       },
       {
         "company": "Meta",
