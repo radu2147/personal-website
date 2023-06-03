@@ -26,7 +26,7 @@
           style="marginBottom: 0; paddingBottom: 0; position: relative; width: 290px; height: 230px;" />
         <span class={`project-date ${$theme}-third-bg`}>{project.year}</span>
         <br />
-        <p class={`project-title-settings mt-3 ${$theme}-text`}>
+        <p class={`project-title-settings mt-3 ${$theme}-text`} id={project.title.replace(" ", "")}>
           {project.title}
         </p>
       </div>

@@ -31,16 +31,18 @@
             <p class="title-styles {`${$theme}-text`}">{title}</p>
           </Typewriter>
         </div>
-        <Switch
-          on:change={handleChange}
-          width={90}
-          height={40}
-          checked={false}
-          offColor="#baaa80"
-          onColor="#353535">
-          <div class="checked" slot="unCheckedIcon" />
-          <div class="checked" slot="checkedIcon" />
-        </Switch>
+        <span id="themeSwitch">
+          <Switch
+            on:change={handleChange}
+            width={90}
+            height={40}
+            checked={false}
+            offColor="#baaa80"
+            onColor="#353535">
+            <div class="checked" slot="unCheckedIcon" />
+            <div class="checked" slot="checkedIcon" />
+          </Switch>
+        </span>
       </div>
     </div>
   </div>

@@ -11,6 +11,7 @@
 <div class={`${$theme}-bg col-md-12 mx-auto text-center language lang-container`}>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <span
+    id='en-lang'
     on:click={() => {
       changeLanguages('en');
     }}>
@@ -22,6 +23,7 @@
   </span>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <span
+    id='ro-lang'
     on:click={() => {
       changeLanguages('ro');
     }}>
