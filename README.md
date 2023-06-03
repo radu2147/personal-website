@@ -1,4 +1,4 @@
-# Personal website tempalte
+# Personal website template
 
 This website template is a partial remake of [dorota1997's template](https://github.com/Dorota1997/react-frontend-dev-portfolio) using Svelte. 
 
