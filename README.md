@@ -54,4 +54,4 @@ To deploy to github pages, simply run
 npm run deploy
 ```
 
-This should deloy to gh-pages branch, which you should use when serving the website
+This should deploy to `gh-pages` branch, which you should use when serving the website
