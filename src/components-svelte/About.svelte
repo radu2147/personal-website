@@ -39,7 +39,7 @@
               <span class={`${$theme}-text wave`}>{$_('section.about.hello')} </span>
               <br />
               <br />
-              <span class={`${$theme}-text`}> {@html $_('section.about.description')} </span>
+              <span class={`${$theme}-text fs-3`}> {@html $_('section.about.description')} </span>
             </div>
           </div>
         </div>

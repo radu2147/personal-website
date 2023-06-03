@@ -9,7 +9,7 @@
       <h1 class={`section-title title-styles ${$theme}-text`}>Contact</h1>
     </div>
   </div>
-  <form action="https://formspree.io/xjvpbkjo" method="POST">
+  <form action="https://formspree.io/xjvpbkjo" method="POST" class="fs-3">
     <input type="text" name="name" placeholder={$_('section.contact.name')} required />
     <input type="email" name="_replyto" placeholder={$_('section.contact.email')} required />
     <input type="text" name="subject" placeholder={$_('section.contact.subject')} />
