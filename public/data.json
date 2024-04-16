@@ -119,11 +119,11 @@
     "jobs":[
       {
         "company": "Cloudflight",
-        "title": "Software engineer intern",
+        "title": "Software engineer",
         "description":"I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
         "startDate": "201-07",
         "startDatePretty": {"en": "July 2021", "ro": "Iulie 2021"},
-        "endDatePretty": {"en": "September 2021", "ro": "Septembrie 2021"}
+        "endDatePretty": {"en": "May 2022", "ro": "Mai 2022"}
       },
       {
         "company": "Meta",
